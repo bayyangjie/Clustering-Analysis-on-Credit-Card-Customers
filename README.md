@@ -149,7 +149,7 @@ plt.xticks(fontsize=15)
 plt.yticks(fontsize=15)
 plt.show()
 ```
-![Image 3](https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Images/elbow_plot_2.png?raw=true) <br> <br>
+![Image 3](https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Images/Kmeans_clustering.png?raw=true) <br> <br>
 
 
 Bar plot showing centroid values per cluster of each feature:
