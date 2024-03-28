@@ -1,6 +1,8 @@
 ## Project objectives
-- Utilize Python for applying clustering techniques to group customers based on their credit card usage patterns to tailor marketing strategies and services effectively
-
+- Utilize Python to apply clustering techniques to group customers based on their credit card usage patterns to tailor marketing strategies and services effectively
+- Provide insights and recommendations for the company based on the identified customer segments
+- Discuss how the company can leverage the identified segments for targeted marketing or service improvements
+  
 ## What was done
 - Handle missing values by filling them with median value
 - Drop non-required variables
