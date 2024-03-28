@@ -98,7 +98,7 @@ plt.xticks(fontsize=20)
 plt.yticks(fontsize=20)
 plt.show()
 ```
-![Image 1](https://github.com/bayyangjie/Data-Visualization-and-Storytelling/blob/main/Images/Picture%204.png?raw=true)) <br> <br>
+![Image 1](https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Images/corr_heatmap.png?raw=true) <br> <br>
 
 
 Elbow plot to find optimal n clusters:
