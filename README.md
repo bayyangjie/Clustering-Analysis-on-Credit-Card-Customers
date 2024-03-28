@@ -8,6 +8,7 @@
 - Elow plot creation to determine the optimal n clusters to be used in Clustering
 - Plotted clusters visualizations to show centroid values of each cluster within individual features
 
+### Data cleaning/processing
 Handling missing values:
 ```
 missing_values = df_ECA.isnull().sum()
@@ -34,13 +35,13 @@ scaler = StandardScaler()
 numerical_columns = df_ECA.select_dtypes(include=['float64', 'int64']).columns
 numeric_df=df_ECA[numerical_columns]
 ```
-
+### PCA
 Performing PCA:
 ```
 pca = PCA(n_components=2)
 pca_result = pca.fit_transform(standardized_data)
 ```
-
+### Clustering
 Perform clustering using PCA data:
 ```
 pca_result_df = pd.DataFrame(data=pca_result, columns=[f'PC{i+1}' for i in range(2)])
@@ -83,7 +84,7 @@ gap_width = 2
 centroids_transposed.plot(kind='bar', stacked=False, ax=ax, width=bar_width)
 ```
 
-## Visualizations
+### Plotting visualizations
 
 Correlation Heatmap:
 ```
