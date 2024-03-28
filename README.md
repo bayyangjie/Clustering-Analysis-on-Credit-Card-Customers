@@ -52,11 +52,12 @@ unique_labels = sorted(set(labels))
 legend_labels = [f'Cluster {label}' for label in unique_labels]
 ```
 
-Checking quality of clusters using Silhouette score:
+Checking the quality of clusters using Silhouette score:
 ```
 silhouette_avg = silhouette_score(pca_result, labels)
 print("Silhouette Score:", silhouette_avg)
 ```
+
 Calculating centroid values of each feature within each cluster:
 ```
 clustered_data = pd.DataFrame(data=standardized_data, columns=[f'Feature{i+1}' for i in range(standardized_data.shape[1])])
@@ -100,7 +101,6 @@ plt.show()
 Elbow plot to find optimal n clusters:
 ```
 inertia = []
-
 for i in range(1, 11):
     kmeans = KMeans(n_clusters=i, init='k-means++', n_init=20, max_iter=300, random_state=111)
     kmeans.fit(standardized_data)
@@ -120,6 +120,19 @@ plt.show()
 
 K Means Clustering:
 ```
+pca_result_df = pd.DataFrame(data=pca_result, columns=[f'PC{i+1}' for i in range(2)])
+n_clusters = 4
+kmeans = KMeans(n_clusters=n_clusters, init='k-means++', n_init=50, max_iter=300, random_state=42)
+labels = kmeans.fit_predict(pca_result)
+
+unique_labels = sorted(set(labels))
+legend_labels = [f'Cluster {label}' for label in unique_labels]
+
+# Checking the clustering quality using silhouette score
+silhouette_avg = silhouette_score(pca_result, labels)
+print("Silhouette Score:", silhouette_avg)
+
+# Creating the clusters visualization
 plt.figure(figsize=(8, 6))
 for cluster_label in unique_labels:
     cluster_indices = labels == cluster_label
@@ -138,6 +151,14 @@ plt.show()
 
 Bar plot showing centroid values per cluster of each feature:
 ```
+# Display the mean values (centroids) of each feature within each cluster
+clustered_data = pd.DataFrame(data=standardized_data, columns=[f'Feature{i+1}' for i in range(standardized_data.shape[1])])
+clustered_data['Cluster'] = labels
+centroids = clustered_data.groupby('Cluster').mean()
+print("Centroids (Mean Values) for Each Cluster:")
+print(centroids)
+
+# Take the absolute values of the centroids DataFrame
 centroids_abs = centroids.abs()
 
 # Transpose the DataFrame to have features as rows and clusters as columns
