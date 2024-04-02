@@ -110,8 +110,8 @@ print("Silhouette Score:", silhouette_avg)
 ```
 The silhouette score is a measure of how similar a data point is to its own cluster compared to other clusters. The silhouette score ranges from -1 to 1 where a high value indicates that the data point is well matched to its own cluster and poorly matched to neighbouring clusters. In this case, the score returned a value of 0.40735770812035293 which is deemed to be a reasonably good clustering result.
 
-#### Creating visualizations of the clusters
 ```
+# Plotting visualizations of the clusters
 plt.figure(figsize=(8, 6))
 for cluster_label in unique_labels:
     cluster_indices = labels == cluster_label
