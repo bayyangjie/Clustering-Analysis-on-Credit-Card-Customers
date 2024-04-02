@@ -24,6 +24,8 @@ plt.show()
 ```
 ![Image 1](https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Images/corr_heatmap.png?raw=true) <br> <br>
 
+The correlation heatmap shows mostly light colours depicting the relationship between variables. This suggests that the variables are not strongly correlated with each other which means lower multicollinearity. Having low multicollinearity can potentially lead to more reliable and interpretable modelling results.
+
 ```
 # Checking for the sum of missing values in each column
 missing_values = df_ECA.isnull().sum()
