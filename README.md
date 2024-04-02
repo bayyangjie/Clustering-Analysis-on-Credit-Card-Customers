@@ -12,8 +12,8 @@
 
 ### Data cleaning/processing
 
-Correlation Heatmap:
 ```
+# Correlation Heatmap
 correlation_matrix = numeric_df.corr()
 plt.figure(figsize=(20, 10))
 sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
