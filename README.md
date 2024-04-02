@@ -50,6 +50,7 @@ Standardization is performed to ensure that all the variables in the dataset are
 
 <br>
 
+### Elbow plots
 ```
 # Elbow plot to find optimal n clusters for clustering step
 inertia = []
