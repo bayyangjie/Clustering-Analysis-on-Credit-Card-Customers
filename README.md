@@ -10,21 +10,9 @@
 - Elow plot creation to determine the optimal n clusters to be used in Clustering
 - Plotted clusters visualizations to show centroid values of each cluster within individual features
 
+<br>
+
 ### Data cleaning/processing
-
-```
-# Correlation Heatmap
-correlation_matrix = numeric_df.corr()
-plt.figure(figsize=(20, 10))
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f")
-plt.title('Correlation Heatmap',fontsize=30)
-plt.xticks(fontsize=20)
-plt.yticks(fontsize=20)
-plt.show()
-```
-![Image 1](https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Images/corr_heatmap.png?raw=true) <br> <br>
-
-The correlation heatmap shows mostly light colours depicting the relationship between variables. This suggests that the variables are not strongly correlated with each other which means lower multicollinearity. Having low multicollinearity can potentially lead to more reliable and interpretable modelling results.
 
 ```
 # Checking for the sum of missing values in each column
@@ -32,6 +20,7 @@ missing_values = df_ECA.isnull().sum()
 print("\nCount of missing values in each column:")
 print(missing_values)
 ```
+Only two columns 'CREDIT_LIMIT', 'MINIMUM_PAYMENTS' have missing values in them.
 
 ```
 # Identify numeric columns
@@ -44,7 +33,6 @@ for col in cols_missing_values:
 ```
 Converting the data types of those columns with missing values into numerical, then using the for loop to iterate through the columns and fill any NA values in each column with the respective 
 median value.
-
 
 ```
 # Dropping non-required columns
@@ -59,6 +47,8 @@ numerical_columns = df_ECA.select_dtypes(include=['float64', 'int64']).columns
 numeric_df=df_ECA[numerical_columns]
 ```
 Standardization is performed to ensure that all the variables in the dataset are on the same scale. This prevents a feature from dominating another due to the large difference in scale. 
+
+<br>
 
 ```
 # Elbow plot to find optimal n clusters for clustering step
