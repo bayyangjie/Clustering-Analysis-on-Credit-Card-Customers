@@ -54,10 +54,10 @@ Standardization is performed to ensure that all the variables in the dataset are
 
 ### Correlation heatmap:
 
-![correlation](https://github.com/bayyangjie/Foundation-to-Python-for-AI/assets/153354426/bc9b2ea7-fcec-4e6e-b156-858a96d519d7) <br> <br>
+![correlation](https://github.com/bayyangjie/Foundation-to-Python-for-AI/assets/153354426/bc9b2ea7-fcec-4e6e-b156-858a96d519d7) 
 
-### Distribution of each numerical column: <br>
-![distribution](https://github.com/bayyangjie/Foundation-to-Python-for-AI/assets/153354426/5634a94a-a788-47d0-8bfe-7d945e4efef1) <br> <br>
+### Distribution of each numerical column: 
+![distribution](https://github.com/bayyangjie/Foundation-to-Python-for-AI/assets/153354426/5634a94a-a788-47d0-8bfe-7d945e4efef1) 
 
 ### Elbow plots:
 ```
