@@ -102,7 +102,7 @@ pca_result = pca.fit_transform(standardized_data)
 ```
 PCA is performed to reduce the dimensionality of a dataset while preserving most of its variance/information. By representing data in terms of its principal components (which are linear combinations of the original features), PCA allows for a lower-dimensional representation that captures the essential structure of the data. In this case, the output of the 2 columns summarize the variability in the data in a lower-dimensional space
 
-### Clustering
+## Clustering
 ```
 # Perform clustering using PCA data
 pca_result_df = pd.DataFrame(data=pca_result, columns=[f'PC{i+1}' for i in range(2)])
