@@ -58,7 +58,7 @@ Standardization is performed to ensure that all the variables in the dataset are
 ### Distribution of each numerical column: <br>
 ![distribution](https://github.com/bayyangjie/Foundation-to-Python-for-AI/assets/153354426/5634a94a-a788-47d0-8bfe-7d945e4efef1) <br> <br>
 
-### Elbow plots
+### Elbow plots:
 ```
 # Elbow plot to find optimal n clusters for clustering step
 inertia = []
