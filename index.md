@@ -198,8 +198,7 @@ plt.show()
 The bar plot was created firstly by transposing the dataframe ‘centroids’ to have features as rows and clusters as columns. The plot shows the centroid magnitude of each variable that is being sub-categorized into the clusters. From that, we can determine the impact of each variable within each cluster and derive insights from it.
 
 ## Significant findings <br>
-- Based on the subplots of histograms, it can be seen that the majority of customers have been with the company for 12 years which is a long time. This could signify that the company has been successfully able to retain customers probably through means such as incentive programs and rewards, and that the customers are also satisfied with the services provided to them.
+- Based on the subplots of histograms, it can be seen that the majority of customers have been with the company for 12 years which is a long time. This could signify that the company has been successfully able to retain customers probably through means such as incentive programs and rewards, and that the customers are also satisfied with the services provided to them. <br>
 - Customers from cluster 3 form the largest bulk while customers from cluster 2 form the next biggest cluster. In both clusters, customers have high credit balances and credit limits. In addition, customers from both clusters are also able to make their credit payments in full as well despite the high payments. This suggests that customers from these two clusters are valuable customers and the company can place more focus on these customers for customer retention.
-![image](https://github.com/bayyangjie/Foundation-to-Python-for-AI/assets/153354426/341020d7-2736-4ddd-b59e-5ef312d4ee05)
 
 
