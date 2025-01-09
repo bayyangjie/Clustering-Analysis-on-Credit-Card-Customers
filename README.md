@@ -35,8 +35,6 @@ The cluster plot shows result of the k-means clustering. Customers in Cluster 3 
 ![image](https://github.com/user-attachments/assets/542bfff8-04ef-462e-8395-57c9f53805c0)
 
 ### Barplot break down of clusters 
-* 
-
 ![image](https://github.com/user-attachments/assets/36b48e4c-5f38-4422-9db6-439476f1d062)
 
 ## Limitations and Improvements
