@@ -11,8 +11,8 @@
 
 ![image](https://github.com/user-attachments/assets/b2c5c71c-7bfe-4372-90a1-8b588bf0fca1)
 
-### Elbow Plot
+### Elbow Plot (n_components)
 
-![image](https://github.com/user-attachments/assets/cd81f9ec-5267-492a-8066-46e4ac3686ef)
+![image](https://github.com/user-attachments/assets/572450d2-0a77-4bfd-a4be-93334d7f0ff4)
 
 
