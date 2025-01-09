@@ -1,7 +1,5 @@
 # Clustering Analysis on Credit Card Customers
 
-# Getting started
-
 To run this project, use the following code file:
 [View the full code here] (https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Project.py)
 
