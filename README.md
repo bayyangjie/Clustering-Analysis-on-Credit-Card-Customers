@@ -33,4 +33,4 @@
 
 * Besides KMeans clustering, DBSCAN is also another technique that could be used for clustering. DBSCAN is useful for working with datasets that have complex structures and it is also insensitive to scaling which means it can also handle datasets with different scales without the need for normalization or standardization.
 
-# [View the full code here] (https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Project.py)
+### [View the full code here] (https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Project.py)
