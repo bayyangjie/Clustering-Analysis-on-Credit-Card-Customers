@@ -13,12 +13,17 @@
 
 ### Elbow Plot (n_components)
 
-![image](https://github.com/user-attachments/assets/572450d2-0a77-4bfd-a4be-93334d7f0ff4)
+![image](https://github.com/user-attachments/assets/2902aff7-50c8-48e8-9c61-16579b8c6b7d)
 
 ### Elbow Plot (optimal clusters)
 
 ![image](https://github.com/user-attachments/assets/401b38d6-e006-4def-bdd2-750a352985e3)
 
+### Clusters
 
+![image](https://github.com/user-attachments/assets/542bfff8-04ef-462e-8395-57c9f53805c0)
 
+### Clusters represented as barplot visuals 
+
+![image](https://github.com/user-attachments/assets/36b48e4c-5f38-4422-9db6-439476f1d062)
 
