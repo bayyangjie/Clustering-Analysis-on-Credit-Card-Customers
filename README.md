@@ -3,7 +3,7 @@
 To run this project, use the following code file: <br> <br>
 [View the full code here] (https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Project.py)
 
-## This project utilizes Python for applying clustering techniques to group customers based on their credit card usage patterns to tailor marketing strategies and services effectively. The dataset contains the usage behavior of around 9000 credit card holders during the last 6 months, including the following variables.
+This project utilizes Python for applying clustering techniques to group customers based on their credit card usage patterns to tailor marketing strategies and services effectively. The dataset contains the usage behavior of around 9000 credit card holders during the last 6 months, including the following variables.
 
 * In this project, K-Means clustering was the main method employed for the clustering analysis because the dataset consists of numerical attributes.
 * Various steps were also performed prior to performing the clustering. For example, PCA was performed to reduce the dimensionality of the original feature space.
