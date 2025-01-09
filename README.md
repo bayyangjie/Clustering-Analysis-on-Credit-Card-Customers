@@ -15,4 +15,10 @@
 
 ![image](https://github.com/user-attachments/assets/572450d2-0a77-4bfd-a4be-93334d7f0ff4)
 
+### Elbow Plot (optimal clusters)
+
+![image](https://github.com/user-attachments/assets/401b38d6-e006-4def-bdd2-750a352985e3)
+
+
+
 
