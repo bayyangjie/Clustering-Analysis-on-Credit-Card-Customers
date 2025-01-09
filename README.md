@@ -10,8 +10,9 @@ This project utilizes Python for applying clustering techniques to group custome
 * The elbow plot was also created to identify the optimum "n_components" and number of clusters (n_clusters).
 
 ## About the dataset
-The column variables in the dataset describe the credit card usage behaviour of around 9000 credit card holders over a period of 6 months and the individual customers represent the rows. The different column variables represent the various metrics for measuring the usage behaviour of a customer. The customer ID column was also dropped in this case because it is not required as part of the clustering analysis. 
+The column variables in the dataset describe the credit card usage behaviour of around 9000 credit card holders over a period of 6 months and the individual customers represent the rows. The different column variables represent the various metrics for measuring the usage behaviour of a customer. The customer ID column was also dropped in this case because it is not required as part of the clustering analysis. <br>
 
+List of column variables and their meanings:
 <img src="https://github.com/user-attachments/assets/d3c6f800-fb94-49eb-a8d7-37c1f1d644ff" width="600" height="450">
 
 ## Visualisations
