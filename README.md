@@ -9,7 +9,7 @@ This project utilizes Python for applying clustering techniques to group custome
 * Various steps were also performed prior to performing the clustering. For example, PCA was performed to reduce the dimensionality of the original feature space.
 * The elbow plot was also created to identify the optimum "n_components" and number of clusters (n_clusters).
 
-# Insights
+# Visualisations
 
 ### Correlation Heatmap
 
