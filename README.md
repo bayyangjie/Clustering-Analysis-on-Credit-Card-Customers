@@ -35,5 +35,3 @@ This project utilizes Python for applying clustering techniques to group custome
 * Improvements could be made to the dataset to include other attributes such as demographic information of customers such as age, gender, ethnicity, marital status, employment status and so on. With the inclusion of such details, it could benefit the company greatly by designing more accurate incentive/reward programs and advertisements to be targeted towards more specific groups of customers. 
 
 * Besides KMeans clustering, DBSCAN is also another technique that could be used for clustering. DBSCAN is useful for working with datasets that have complex structures and it is also insensitive to scaling which means it can also handle datasets with different scales without the need for normalization or standardization.
-
-### [View the full code here] (https://github.com/bayyangjie/Foundation-to-Python-for-AI/blob/main/Project.py)
