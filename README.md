@@ -16,6 +16,13 @@ List of column variables and their meanings:
 
 <img src="https://github.com/user-attachments/assets/d3c6f800-fb94-49eb-a8d7-37c1f1d644ff" width="600" height="450">
 
+## Packages used
+pandas
+numpy
+seaborn
+matplotlib
+sklearn
+
 ## Visualisations
 
 ### Correlation Heatmap
@@ -39,7 +46,7 @@ The cluster plot shows result of the k-means clustering. Customers in Cluster 3 
 <img src="https://github.com/user-attachments/assets/542bfff8-04ef-462e-8395-57c9f53805c0" width="650" height="550">
 
 ### Barplot break down of clusters 
-
+The barplot breaks down in detail the impact of each variable within each cluster with the use of the centroid magnitude values. With this, we can further chracterize each cluster according to what the dominant features are. In this case, it would tell us the characteristics of the customers that represent each cluster.
 <img src="https://github.com/user-attachments/assets/36b48e4c-5f38-4422-9db6-439476f1d062" width="800" height="400">
 
 ## Limitations and Improvements
